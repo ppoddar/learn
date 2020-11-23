@@ -10,5 +10,10 @@
       name: nodejs
       state: present
     become: yes
+  - name: instal docker
+    apt: 
+      name: docker
+      state: present
+    become: yes
 
 
