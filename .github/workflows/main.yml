@@ -26,4 +26,4 @@ jobs:
       - name: Run a multi-line script
         run: |
           docker build https://github.com/ppoddar/learn.git#main -t learn
-          docker run -p80:80 learn
+          docker run -d -p80:80 learn

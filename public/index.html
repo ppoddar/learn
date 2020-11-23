@@ -1,4 +1,16 @@
 <!DOCTYPE html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
 <body>
-<h1>DevOps</h1>
+<h1>Dev to DevOps</h1>
+
+<p> Release <span id='release'></span> </p>
+
+<script>
+    $.ajax({url:"/release"})
+    .done(function(data) {
+        $('#release').text(data.release)
+    })
+</script>
 </body>
