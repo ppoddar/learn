@@ -1,0 +1,11 @@
+- name: prepare VM in Azure cloud for Node developement
+  hosts: all
+  gather_facts: false
+  vars:
+    ansible_python_interpreter: /usr/bin/python
+    directory: learn
+  tasks: 
+  - name: run simple node app as docker container
+    
+
+
