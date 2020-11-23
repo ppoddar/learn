@@ -1,0 +1,20 @@
+{
+  "name": "landing",
+  "version": "1.0.0",
+  "description": "simple Node.js app in Azure cloud environment to kick the tiers",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "learn",
+    "simple"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-status-codes": "^2.1.4",
+    "js-yaml": "^3.14.0"
+  }
+}
