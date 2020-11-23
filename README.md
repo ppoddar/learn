@@ -7,12 +7,12 @@ On Mac:
 
    1. Checkout the project from Azure devops
 
-
+       
 
    2.  deploy a node.js based web server on the VM. Public ip
         ```
-        $ ./bin/deploy.show
-``````. ```
+        $ ./bin/deploy.sh
+        ```
 
    3. open up browser page
       ```
